@@ -11,31 +11,11 @@ If repository contains **multiple** Web Applications (multiple `Startup.*` or `P
 
 ## Usage
 
-### .NET Core latest stable
+### .NET 6 latest stable
 
 ```
-heroku buildpacks:set jincod/dotnetcore
+heroku buildpacks:set https://github.com/huhulacolle/dotnetcore-buildpack
 ```
-
-### .NET Core edge
-
-```
-heroku buildpacks:set https://github.com/jincod/dotnetcore-buildpack
-```
-
-### .NET Core Preview release
-
-```
-heroku buildpacks:set https://github.com/jincod/dotnetcore-buildpack#preview
-```
-
-### Previous releases
-
-```
-heroku buildpacks:set https://github.com/jincod/dotnetcore-buildpack#version
-```
-
-Available [releases](https://github.com/jincod/dotnetcore-buildpack/releases)
 
 More info
 
